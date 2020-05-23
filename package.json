@@ -1,0 +1,35 @@
+{
+  "name": "product-mart",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "private": true,
+  "dependencies": {
+    "bcrypt": "3.0.6",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "core-js": "^2.5.4",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-async-handler": "^1.1.4",
+    "hammerjs": "^2.0.8",
+    "helmet": "^3.16.0",
+    "http-errors": "^1.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.7",
+    "morgan": "^1.9.1",
+    "node-pre-gyp": "^0.14.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
